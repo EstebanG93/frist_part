@@ -4,12 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="keywords" content="Comida, Haburgesa, Comida rapida, gourmet">
+    <meta name="description" content="Para degustar la mejor comida rápida con el mejor estilo gourmet">
+    <link rel="shortcut icon" href="./assets/img/icon_comilona.png" type="image/x-icon">
+    <title>Menú</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/main.js"></script>
 </head>
 <body>
-    <h1>Mi página</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, magnam!</p>
+    <header>
+        <h1 class="name">Distrito Comilona</h1>
+        <h2 class="description">El lugar perfecto para descubrir el verdadero sabor de la comida gourmet</h2>
+        <img src="./assets/img/icon_comilona.png" alt="logo" class="logo">
+    </header>
+    <div class="navbar">
+        <ul>
+            <li class="navitem">Home</li>
+            <li class="navitem">Pedir</li>
+            <li class="navitem">Contacto</li>
+            <li class="navitem">Iniciar sesión</li>
+        </ul>
+    </div>
+    <div class="menu">
+        <div class="item">
+            <img src="./assets/img/1_sandwich.png" alt="sadwich" class="img_menu">
+            <h3 class="prod_menu">Sandwich</h3>
+            <p class="price_menu">USD 3.5</p>
+            <button class="button_minus">-</button>
+            <input type="number" class="qty_item" value="0">
+            <button class="button_plus">+</button>
+        </div>
+        <div class="item">
+            <img src="./assets/img/2_salad.png" alt="salad" class="img_menu">
+            <h3 class="prod_menu">Ensalada</h3>
+            <p class="price_menu">USD 4.5</p>
+            <button class="button_minus">-</button>
+            <input type="number" class="qty_item" value="0">
+            <button class="button_plus">+</button>
+        </div>
+        <div class="item">
+            <img src="./assets/img/3_burger.png" alt="burger" class="img_menu">
+            <h3 class="prod_menu">Hamburguesa</h3>
+            <p class="price_menu">USD 6.5</p>
+            <button class="button_minus">-</button>
+            <input type="number" class="qty_item" value="0">
+            <button class="button_plus">+</button>
+        </div>
+        <div class="item">
+            <img src="./assets/img/4_hotdog.png" alt="hotdog" class="img_menu">
+            <h3 class="prod_menu">Hot Dog</h3>
+            <p class="price_menu">USD 4.99</p>
+            <button class="button_minus">-</button>
+            <input type="number" class="qty_item" value="0">
+            <button class="button_plus">+</button>
+        </div>
+        <div class="item">
+            <img src="./assets/img/5_coca-cola.png" alt="coca-cola" class="img_menu">
+            <h3 class="prod_menu">Coca-Cola</h3>
+            <p class="price_menu">USD 3</p>
+            <button class="button_minus">-</button>
+            <input type="number" class="qty_item" value="0">
+            <button class="button_plus">+</button>
+        </div>
+        <div class="item">
+            <img src="./assets/img/6_pepsi.png" alt="pepsi" class="img_menu">
+            <h3 class="prod_menu">Pepsi</h3>
+            <p class="price_menu">USD 2.8</p>
+            <button class="button_minus">-</button>
+            <input type="number" class="qty_item" value="0">
+            <button class="button_plus">+</button>
+        </div>
+        <div class="item">
+            <img src="./assets/img/7_fanta.png" alt="fanta" class="img_menu">
+            <h3 class="prod_menu">Fanta</h3>
+            <p class="price_menu">USD 2.8</p>
+            <button class="button_minus">-</button>
+            <input type="number" class="qty_item" value="0">
+            <button class="button_plus">+</button>
+        </div>
+    </div>
+    <div class="payment">
+        <h4 class="text_total" id="subtotal">Subtotal:</h4>
+        <h4 class="text_total" id="IVA">IVA:</h4>
+        <h5 class="text_total" id="total">Total a pagar:</h5>
+        <button class="button_topay" id="pagar">Finalizar pedido</button>
+    </div>
+        <!-- <script src="./js/main.js"></script> -->
 </body>
+<footer>
+    <img src="./assets/img/icon_fb.png" class="icon_social" alt="facebook">
+    <img src="./assets/img/icon_ig.png" class="icon_social" alt="instagram">
+    <img src="./assets/img/icon_wa.png" class="icon_social" alt="whatsapp">
+    <img src="./assets/img/icon_ln.png" class="icon_social" alt="linkedin">
+    <p>Distrito Comilona, restaurante gourmet.</p>
+    <p>©Todos los derechos reservados</p>
+</footer>
 </html>
